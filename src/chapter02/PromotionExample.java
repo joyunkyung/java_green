@@ -9,7 +9,7 @@ public class PromotionExample {
 		
 		char charValue='가';
 		intValue=charValue;
-		System.out.println("intValue: " + intValue); //가 유니코드 44032로 변환
+		System.out.println("intValue: " + intValue); //  가 유니코드 44032로 변환
 		
 		intValue = 50;
 		long longValue = intValue;

@@ -3,10 +3,10 @@ package chapter02;
 public class EscapeExample {
 
 	public static void main(String[] args) {
-		System.out.println("¹øÈ£\tÀÌ¸§\tÁ÷¾÷");
-		System.out.print("Çà ´ÜÀ§ Ãâ·Â\n");
-		System.out.println("¿ì¸®´Â \"°³¹ßÀÚ\" ÀÔ´Ï´Ù.");
-		System.out.println("º½\\¿©¸§\\°¡À»\\°Ü¿ï");
+		System.out.println("ë²ˆí˜¸\tì´ë¦„\tì§ì—…");
+		System.out.print("í–‰ ë‹¨ìœ„ ì¶œë ¥\n");
+		System.out.println("ìš°ë¦¬ëŠ” \"ê°œë°œì\" ì…ë‹ˆë‹¤.");
+		System.out.println("ë´„\\ì—¬ë¦„\\ê°€ì„\\ê²¨ìš¸");
 		
 	}
 

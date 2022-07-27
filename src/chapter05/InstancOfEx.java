@@ -9,16 +9,16 @@ class Professor extends Research{}
 public class InstancOfEx {
 	static void print(Person p) { //Person p = new Student();
 		if(p instanceof Person) {
-			System.out.print("Person ");
+			System.out.print("Person ");//참
 		}
 		if(p instanceof Student) {
-			System.out.print("Student ");
+			System.out.print("Student ");//참
 		}
 		if(p instanceof Research) {
-			System.out.print("Research ");
+			System.out.print("Research ");//거짓
 		}
 		if(p instanceof Professor) {
-			System.out.print("Professor ");
+			System.out.print("Professor ");//거짓
 		}
 		System.out.println();
 	}
